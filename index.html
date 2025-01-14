@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility and Customization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Page Customization Options</h1>
+    
+    <div>
+        <label for="background-color">Background Color:</label>
+        <input type="color" id="background-color" value="#ffffff">
+    </div>
+    
+    <div>
+        <label for="font-family">Font Family:</label>
+        <select id="font-family">
+            <option value="Arial">Arial</option>
+            <option value="Verdana">Verdana</option>
+            <option value="Georgia">Georgia</option>
+            <option value="OpenDyslexic">OpenDyslexic</option>
+        </select>
+    </div>
+    
+    <div>
+        <label for="font-size">Font Size:</label>
+        <input type="number" id="font-size" value="18" min="10" max="30">
+    </div>
+
+    <div>
+        <label for="bionic-reading">Enable Bionic Reading:</label>
+        <input type="checkbox" id="bionic-reading">
+    </div>
+
+    <div>
+        <label for="read-out-loud">Enable Read Out Loud:</label>
+        <input type="checkbox" id="read-out-loud">
+    </div>
+
+    <div>
+        <label for="dyslexia-ruler-toggle">Enable Dyslexia Ruler:</label>
+        <input type="checkbox" id="dyslexia-ruler-toggle">
+        <label for="ruler-height">Ruler Height:</label>
+        <input type="number" id="ruler-height" value="10" min="5" max="20">
+    </div>
+
+    <div>
+        <label for="focus-mode">Focus Mode:</label>
+        <input type="checkbox" id="focus-mode">
+    </div>
+
+    <p>Here is some sample text to test the functionality. Highlight text to use Read Out Loud, or experiment with the different modes above!</p>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
