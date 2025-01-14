@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-color: #ffffff;
+}
+.bionic-reading {
+    font-weight: bold;
+    background-color: #e0e0e0;
+}
+.ruler {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    display: none;
+}
+.highlight-line {
+    background-color: rgba(255, 255, 0, 0.3);
+}
+.highlight-focus {
+    background-color: rgba(0, 255, 0, 0.3);
+}
